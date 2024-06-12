@@ -1,0 +1,52 @@
+body {
+    font-weight: 100;
+    color: white;
+    background-color: black
+}
+
+.inter-navbar {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 8rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: #000000;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.home, .projects, .contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.githubIcon, .linkedinIcon {
+    width: 2rem;
+    height: 2 rem;
+}
+
+/*Animations*/
+
+.home, .projects, .contact, .githubIcon, .linkedinIcon {
+    transition: all .2s ease-in-out;
+}
+
+.home:hover, .projects:hover, .contact:hover, .githubIcon:hover, .linkedinIcon:hover {
+    transform: scale(1.1);
+}
