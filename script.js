@@ -16,6 +16,13 @@ const linkedinIcon = document.createElement('img');
 linkedinIcon.classList.add('linkedinIcon');
 linkedinIcon.src = 'linkedin.png'
 
+//Image Links
+githubIcon.onclick = function() {
+    window.open("https://github.com/tptheautis");
+};
+
+
+
 // Add icons to page
 navbar.append(menu)
 menu.append(githubIcon);
