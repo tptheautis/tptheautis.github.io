@@ -8,13 +8,13 @@ menu.classList.add('menu');
 //Github Icon
 const githubIcon = document.createElement('img');
 githubIcon.classList.add('githubIcon');
-githubIcon.src = '/src/img/github.png'
+githubIcon.src = 'github.png'
 
 //Linkedin Icon
 
 const linkedinIcon = document.createElement('img');
 linkedinIcon.classList.add('linkedinIcon');
-linkedinIcon.src = '/src/img/linkedin.png'
+linkedinIcon.src = 'linkedin.png'
 
 // Add icons to page
 navbar.append(menu)
