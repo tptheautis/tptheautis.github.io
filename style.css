@@ -63,4 +63,5 @@ html, body {
 
 .home:hover, .projects:hover, .contact:hover, .githubIcon:hover, .linkedinIcon:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
