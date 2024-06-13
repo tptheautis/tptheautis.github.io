@@ -1,39 +1,49 @@
-body {
-    width: 100%;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
     height: 100%;
     font-family: 'Inter', sans-serif;
     font-style: italic;
-    font-weight: 100;
+    font-weight: small;
     color: white;
-    background-image: url("websitewallpaper.jpg");
-    background-size: auto;
+    background-image: url("background.jpg");
+    background-size: cover;
+    
 }
 
 #navbar {
     display: flex;
     flex-direction: row;
-    padding: 1rem;
-    width: 100%;
-    gap: 8rem;
-    font-size: 1.1rem;
     justify-content: center;
+    padding: 1rem;
+    gap: 5rem;
+    width: 100%;
+    font-size: 1.1rem;
     align-items: center;
     color: whitesmoke;
 }
 
-.menu {
+#menuOne {
     display: flex;
-    gap: 2rem;
     flex-direction: row;
     justify-content: center;
+    gap: 2rem;
 }
+
+#menuTwo {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
 
 .home, .projects, .contact {
     display: flex;
     flex-direction: row;
 }
 
-.githubIcon, .linkedinIcon {
+.githubIcon, .gmailIcon, .linkedinIcon {
     width: 2rem;
     height: 2 rem;
 }
