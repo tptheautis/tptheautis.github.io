@@ -57,12 +57,21 @@ html, body {
 
 /*Animations*/
 
-.home, .projects, .contact, .githubIcon, .linkedinIcon {
+.home, .projects, #contact, .githubIcon, .linkedinIcon {
     transition: all .2s ease-in-out;
 }
 
-.home:hover, .projects:hover, .contact:hover, .githubIcon:hover, .linkedinIcon:hover {
+.home:hover, .projects:hover, #contact:hover, .githubIcon:hover, .linkedinIcon:hover {
     transform: scale(1.1);
     cursor: pointer;
     filter: brightness(50%);
+}
+
+/* Contact */
+
+.mainContactBox {
+    display: flex;
+    background-color: red;
+    width: 100px;
+    height: 100px;
 }

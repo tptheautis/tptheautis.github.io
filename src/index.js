@@ -1,3 +1,7 @@
+import contactPage from './contact';
+
+//Page Rendering
+
 //menuTwo container
 const menuTwo = document.getElementById('menuTwo')
 menuTwo.classList.add('menuTwo');
@@ -21,3 +25,5 @@ githubIcon.onclick = function() {
 // Add icons to page
 menuTwo.append(githubIcon);
 menuTwo.append(linkedinIcon);
+
+contactPage();
