@@ -1,14 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    height: 100%;
     font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: small;
     color: white;
-    background-image: url("background.jpg");
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
-    
 }
 
 #navbar {
@@ -16,11 +21,11 @@ html, body {
     flex-direction: row;
     justify-content: center;
     padding: 1rem;
-    gap: 5rem;
+    gap: 4rem;
     width: 100%;
     font-size: 1.1rem;
     align-items: center;
-    color: whitesmoke;
+    color: white;
 }
 
 #menuOne {

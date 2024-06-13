@@ -1,5 +1,9 @@
-//menu container
-const menu = document.getElementById('menuTwo')
+//menuOne container
+const menuOne = document.getElementById('menuOne')
+
+//menuTwo container
+const menuTwo = document.createElementById('div')
+menuTwo.classList.add('menuTwo');
 
 //Github Icon
 const githubIcon = document.createElement('img');
@@ -18,5 +22,6 @@ githubIcon.onclick = function() {
 };
 
 // Add icons to page
-menu.append(githubIcon);
-menu.append(linkedinIcon);
+menuOne.append(menuTwo)
+menuTwo.append(githubIcon);
+menuTwo.append(linkedinIcon);
