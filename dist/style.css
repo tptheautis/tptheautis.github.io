@@ -36,7 +36,7 @@ html, body {
     gap: 4rem;
 }
 
-#menuTwo {
+#menuTwo { 
     display: flex;
     flex-direction: row;
     align-items: center;
