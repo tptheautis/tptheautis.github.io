@@ -6,8 +6,6 @@
 
 html, body {
     font-family: 'Inter', sans-serif;
-    font-style: italic;
-    font-weight: small;
     color: white;
     background-image: url('background.jpg');
     background-repeat: no-repeat;
@@ -19,25 +17,29 @@ html, body {
 #navbar {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 1rem;
-    gap: 4rem;
+    padding: 2rem;
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     align-items: center;
     color: white;
+    background-color: rgba(0, 0, 0, .01);
 }
 
 #menuOne {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-weight: 700;
+    font-style: italic;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 #menuTwo {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 2rem;
 }
 

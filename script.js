@@ -1,20 +1,18 @@
-//menuOne container
-const menuOne = document.getElementById('menuOne')
 
 //menuTwo container
-const menuTwo = document.createElementById('div')
+const menuTwo = document.getElementById('menuTwo')
 menuTwo.classList.add('menuTwo');
 
 //Github Icon
 const githubIcon = document.createElement('img');
 githubIcon.classList.add('githubIcon');
-githubIcon.src = 'github.png'
+githubIcon.src = 'githubIcon.png'
 
 //Linkedin Icon
 
 const linkedinIcon = document.createElement('img');
 linkedinIcon.classList.add('linkedinIcon');
-linkedinIcon.src = 'linkedin.png'
+linkedinIcon.src = 'linkedinIcon.png'
 
 //Image Links
 githubIcon.onclick = function() {
@@ -22,6 +20,5 @@ githubIcon.onclick = function() {
 };
 
 // Add icons to page
-menuOne.append(menuTwo)
 menuTwo.append(githubIcon);
 menuTwo.append(linkedinIcon);
