@@ -1,3 +1,4 @@
+import homePage from './home';
 import contactPage from './contact';
 
 //Page Rendering
@@ -26,4 +27,5 @@ githubIcon.onclick = function() {
 menuTwo.append(githubIcon);
 menuTwo.append(linkedinIcon);
 
+homePage();
 contactPage();

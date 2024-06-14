@@ -14,6 +14,15 @@ html, body {
     background-size: cover;
 }
 
+#body {
+    display: block;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #navbar {
     display: flex;
     flex-direction: row;
@@ -45,23 +54,23 @@ html, body {
 
 
 
-.home, .projects, .contact {
+#home, .projects, .contact {
     display: flex;
     flex-direction: row;
 }
 
-.githubIcon, .gmailIcon, .linkedinIcon {
+.githubIcon, .gmailIcon, .linkedinIcon, .emailIcon, .phoneIcon {
     width: 2rem;
     height: 2 rem;
 }
 
 /*Animations*/
 
-.home, .projects, #contact, .githubIcon, .linkedinIcon {
+#home, .projects, #contact, .githubIcon, .linkedinIcon {
     transition: all .2s ease-in-out;
 }
 
-.home:hover, .projects:hover, #contact:hover, .githubIcon:hover, .linkedinIcon:hover {
+#home:hover, .projects:hover, #contact:hover, .githubIcon:hover, .linkedinIcon:hover {
     transform: scale(1.1);
     cursor: pointer;
     filter: brightness(50%);
@@ -71,7 +80,49 @@ html, body {
 
 .mainContactBox {
     display: flex;
-    background-color: red;
-    width: 100px;
-    height: 100px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    animation: fadeIn 0.5s;
+}
+
+.mainContactBox:hover {
+    transform: scale(1.1);
+}
+
+
+.contactMeContainer {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.emailContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+}
+
+.phoneContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+@keyFrames fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
 }
