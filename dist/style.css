@@ -76,6 +76,25 @@ html, body {
     filter: brightness(50%);
 }
 
+.homeTitleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s;
+    transform: scale(1.1);
+}
+
+.theautisPersonsContainer {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.fullstackDeveloperContainer {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
 /* Contact */
 
 .mainContactBox {

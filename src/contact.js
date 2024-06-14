@@ -39,6 +39,7 @@ function contactPage() {
   phoneTextContainer.append(phoneText);
 
   contact.onclick = function() {
+  body.remove()
   body.append(mainContactBox);
   console.log('working')
   }
