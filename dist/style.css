@@ -81,6 +81,7 @@ html, body {
     width: 100%;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 
 .homeTitleContainer {
@@ -104,8 +105,12 @@ html, body {
 
 .toolsContainer {
     display: flex;
+    justify-content: center;
+    align-content: center;
     width: fit-content;
     height: fit-content;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1)
 }
 
 .toolIcons {

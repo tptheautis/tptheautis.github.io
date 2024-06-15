@@ -3,6 +3,7 @@ const body = document.getElementById('body');
     homeContainer.classList.add('homeContainer');
 
 function homePage() {
+
     const homeTitleContainer = document.createElement('div')
     homeTitleContainer.classList.add('homeTitleContainer');
 
@@ -44,7 +45,7 @@ function homePage() {
 
     const awsIcon = document.createElement('img');
     awsIcon.classList.add('toolIcons');
-    awsIcon.src = 'src/img/AWS.png';
+    awsIcon.src = 'src/img/aws.png';
 
     const gitIcon = document.createElement('img');
     gitIcon.classList.add('toolIcons');
