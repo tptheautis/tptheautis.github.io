@@ -54,7 +54,7 @@ html, body {
 
 
 
-#home, .projects, .contact {
+#homeButton, #projectButton, #contactButton {
     display: flex;
     flex-direction: row;
 }
@@ -66,11 +66,11 @@ html, body {
 
 /*Animations*/
 
-#home, .projects, #contact, .githubIcon, .linkedinIcon {
+#homeButton, #projectButton, #contactButton, .githubIcon, .linkedinIcon {
     transition: all .2s ease-in-out;
 }
 
-#home:hover, .projects:hover, #contact:hover, .githubIcon:hover, .linkedinIcon:hover {
+#homeButton:hover, #projectButton:hover, #contactButton:hover, .githubIcon:hover, .linkedinIcon:hover {
     transform: scale(1.1);
     cursor: pointer;
     filter: brightness(50%);
