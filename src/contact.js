@@ -1,3 +1,5 @@
+import homeContainer from './home';
+
 function contactPage() {
   const contact = document.getElementById('contact')
   const body = document.getElementById('body');
@@ -39,7 +41,7 @@ function contactPage() {
   phoneTextContainer.append(phoneText);
 
   contact.onclick = function() {
-  body.remove()
+  homeContainer.remove()
   body.append(mainContactBox);
   console.log('working')
   }
