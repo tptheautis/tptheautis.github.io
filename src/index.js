@@ -29,7 +29,7 @@ githubIcon.onclick = function() {
 
 const contactCard = document.createElement('img')
 contactCard.classList.add('contactCard');
-contactCard.src = 'src/img/image.png';
+contactCard.src = 'src/img/contactCard.png';
 
 // Add icons to page
 menuTwo.append(githubIcon);
