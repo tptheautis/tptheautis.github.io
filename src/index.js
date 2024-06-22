@@ -23,9 +23,15 @@ linkedinIcon.classList.add('linkedinIcon');
 linkedinIcon.src = 'src/img/linkedinIcon.png'
 
 //Image Links
-githubIcon.onclick = function() {
+githubIcon.addEventListener('click', function() {
     window.open("https://github.com/tptheautis");
-};
+});
+
+linkedinIcon.addEventListener('click', function() {
+    window.open("https://www.linkedin.com/in/theautis-persons-9670a21a1/");
+})
+
+
 
 const contactCard = document.createElement('img')
 contactCard.classList.add('contactCard');
