@@ -25,13 +25,14 @@ html, body {
 
 #navbar {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     padding: 2rem;
     width: 100%;
     font-size: 1.2rem;
     align-items: center;
     color: white;
     background-color: rgba(0, 0, 0, .01);
+    position: fixed;
 }
 
 #menuOne {
@@ -82,6 +83,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    position: fixed;
 }
 
 .homeTitleContainer {
@@ -117,8 +119,8 @@ html, body {
     display: flex;
     flex-direction: row;
     margin: 3rem;
-    width: 6rem;
-    height: 6rem;
+    max-width: 6rem;
+    max-height: 6rem;
     padding: 1rem;
     animation: fadeIn 0.5s;
     transition: all .2s ease-in-out;
