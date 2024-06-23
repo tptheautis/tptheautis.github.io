@@ -112,17 +112,16 @@ html, body {
     align-content: center;
     width: fit-content;
     height: fit-content;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.1)
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .toolIcons {
     display: flex;
     flex-direction: row;
-    margin: 3rem;
-    max-width: 6rem;
-    max-height: 6rem;
-    padding: 1rem;
+    margin: 2%;
+    width: 6%;
+    height: 6%;
+    padding: 1%;
     animation: fadeIn 0.5s;
     transition: all .2s ease-in-out;
 }
