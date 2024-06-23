@@ -44,6 +44,7 @@ html, body {
     font-style: italic;
     justify-content: center;
     gap: 4rem;
+    flex-wrap: wrap;
 }
 
 #menuTwo { 
@@ -140,13 +141,60 @@ html, body {
 .contactCard {
     display: flex;
     justify-content: center;
-    width: 30rem; 
+    width: 25rem; 
     animation: fadeIn 0.5s;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.contactCard:hover {
-    transform: scale(1.1);
-    cursor: pointer;
+/* large phone */ 
+
+@media (max-width: 425px) {
+    #navbar {
+        display: flex;
+        flex-direction: column; 
+        padding: 2rem;
+        width: 100%;
+        font-size: 1.2rem;
+        align-items: center;
+        color: white;
+        background-color: rgba(0, 0, 0, .01);
+        position: fixed;
+    }
+
+    .theautisPersonsContainer {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .fullstackDeveloperContainer {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+
+    .contactCard {
+        display: flex;
+        justify-content: center;
+        width: 20rem; 
+    }
+}
+
+/* Medium Phone */
+
+@media (max-width: 375px) {
+    .theautisPersonsContainer {
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+    
+    .fullstackDeveloperContainer {
+        font-size: .8rem;
+        font-weight: 300;
+    }
+
+    .contactCard {
+        display: flex;
+        justify-content: center;
+        width: 18rem; 
+    }
 }
