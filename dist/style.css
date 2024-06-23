@@ -26,7 +26,7 @@ html, body {
 #navbar {
     display: flex;
     flex-direction: row; 
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     font-size: 1.2rem;
     align-items: center;
@@ -146,6 +146,33 @@ html, body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+@media (max-width: 768px) {
+    #menuOne {
+        gap: 2rem;
+    }
+
+    .theautisPersonsContainer {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .fullstackDeveloperContainer {
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+
+    .toolIcons {
+        display: flex;
+        flex-direction: row;
+        margin: 1%;
+        width: 9%;
+        height: 9%;
+        padding: 1%;
+        animation: fadeIn 0.5s;
+        transition: all .2s ease-in-out;
+    }
+}
+
 /* large phone */ 
 
 @media (max-width: 425px) {
@@ -159,6 +186,10 @@ html, body {
         color: white;
         background-color: rgba(0, 0, 0, .01);
         position: fixed;
+    }
+
+    #menuOne {
+        gap: 2rem;
     }
 
     .theautisPersonsContainer {
@@ -181,6 +212,10 @@ html, body {
 /* Medium Phone */
 
 @media (max-width: 375px) {
+    #menuOne {
+        gap: 1.4rem;
+    }
+
     .theautisPersonsContainer {
         font-size: 1.7rem;
         font-weight: 700;
