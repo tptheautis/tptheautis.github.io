@@ -49,8 +49,7 @@ homeButton.addEventListener('click', function() {
 })
 
 projectButton.addEventListener('click', function() {
-    console.log('project')
-    body.remove(homeContainer);
+
 })
 
 contactButton.addEventListener('click', function() {

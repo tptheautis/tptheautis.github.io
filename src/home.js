@@ -14,7 +14,7 @@ const theautisPersons = document.createTextNode('THEAUTIS PERSONS')
 
 const fullstackDeveloperContainer = document.createElement('div');
 fullstackDeveloperContainer.classList.add('fullstackDeveloperContainer');
-const fullstackDeveloper = document.createTextNode('FULL STACK DEVELOPER');
+const fullstackDeveloper = document.createTextNode('DEVELOPER');
 
 //Images
 const javascriptIcon = document.createElement('img');
